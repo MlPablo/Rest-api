@@ -1,1 +1,5 @@
 bind_addr = ":8080"
+log_level = "debug"
+
+[store]
+database_url = "host=localhost port=5432 user=skymnok password=password dbname=restapi_dev sslmode=disable"
