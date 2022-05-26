@@ -1,9 +1,9 @@
 package main
 
 import (
-	"MynewGopherSchoolProject/internal/app/apiserver"
 	"flag"
 	"github.com/BurntSushi/toml"
+	"github.com/MlPablo/rest-API/intenal/app/apiserver"
 	"log"
 )
 
