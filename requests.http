@@ -1,0 +1,8 @@
+POST http://localhost:8080/users
+
+{"email":"user1@example.com", "password": "password"}
+
+###
+POST http://localhost:8080/sessions
+
+{"email":"user1@example.com", "password": "password"}
