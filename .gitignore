@@ -2,3 +2,5 @@ apiserver.exe
 apiserver
 Makefile
 requests.http
+go.mod
+go.sum
