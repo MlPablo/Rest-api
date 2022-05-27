@@ -1,5 +1,10 @@
 bind_addr = ":8080"
 log_level = "debug"
-
-[store]
 database_url = "host=localhost port=5432 user=skymnok password=password dbname=restapi_dev sslmode=disable"
+
+
+#_, err = db.Exec("CREATE TABLE IF NOT EXISTS users(" +
+#"id bigserial not null primary key," +
+#"email varchar not null unique," +
+#"encrypted_password varchar not null" +
+#");")
